@@ -132,7 +132,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                         /*  회원 가입이 되어 있을 때  */
                         if(result.getDatas().size() == 1){
                             Intent intent = new Intent(LoginActivity.this, HomeActivityBuddy.class);
-                            intent.putExtra("BuddyAccount", result.getDatas().get(0));
+                            intent.putExtra("Buddy", result.getDatas().get(0));
                             startActivity(intent);
                         }
                         /*  회원 가입이 되어 있지 않을 때  */
@@ -160,7 +160,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                         /*  회원 가입이 되어 있을 때  */
                         if(result.getDatas().size() == 1){
                             Intent intent = new Intent(LoginActivity.this, HomeActivityCustomer.class);
-                            intent.putExtra("CustomerAccount", result.getDatas().get(0));
+                            intent.putExtra("Customer", result.getDatas().get(0));
                             startActivity(intent);
                         }
                         /*  회원 가입이 되어 있지 않을 때  */

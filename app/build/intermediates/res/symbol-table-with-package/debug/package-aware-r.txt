@@ -1806,6 +1806,7 @@ id search_edit_frame
 id search_go_btn
 id search_mag_icon
 id search_plate
+id search_rv
 id search_src_text
 id search_voice_btn
 id select_dialog_listview

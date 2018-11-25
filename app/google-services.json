@@ -1,35 +1,35 @@
 {
   "project_info": {
-    "project_number": "876315161384",
-    "firebase_url": "https://onthejourney-1538547464083.firebaseio.com",
-    "project_id": "onthejourney-1538547464083",
-    "storage_bucket": "onthejourney-1538547464083.appspot.com"
+    "project_number": "651086014912",
+    "firebase_url": "https://ontravelertest.firebaseio.com",
+    "project_id": "ontravelertest",
+    "storage_bucket": "ontravelertest.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:876315161384:android:fd64f9d9ebf17349",
+        "mobilesdk_app_id": "1:651086014912:android:fd64f9d9ebf17349",
         "android_client_info": {
           "package_name": "com.example.onthejourney"
         }
       },
       "oauth_client": [
         {
-          "client_id": "876315161384-546gg53rsp1j3burjm8d71fd61g3ru52.apps.googleusercontent.com",
+          "client_id": "651086014912-h1i9q68fpui4sk2paalj9c3i2m9kh5jt.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.onthejourney",
-            "certificate_hash": "f6e2a22027d1ef3cc2de435ae8d7bc66fa9c167a"
+            "certificate_hash": "3643d32aed46126bd415e95570cb75dc6793e412"
           }
         },
         {
-          "client_id": "876315161384-75sdgrottkig3jt7gves4fo88gocth3h.apps.googleusercontent.com",
+          "client_id": "651086014912-oi6uof4v1qh5ihkfpqoqgblcnjl1q8kf.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAtI5eX12gSj_5xrfMCukNIkmUdV0Es4Oo"
+          "current_key": "AIzaSyC_iRXq_qBwQH7LrlmzbOBBx7A54_bBhfA"
         }
       ],
       "services": {
@@ -40,7 +40,51 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "876315161384-75sdgrottkig3jt7gves4fo88gocth3h.apps.googleusercontent.com",
+              "client_id": "651086014912-oi6uof4v1qh5ihkfpqoqgblcnjl1q8kf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651086014912:android:550670af5805decd",
+        "android_client_info": {
+          "package_name": "onthejourney.example.com.google_login_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651086014912-3749h1mabbsvcne62jc2a9a79ice8qe4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "onthejourney.example.com.google_login_test",
+            "certificate_hash": "3643d32aed46126bd415e95570cb75dc6793e412"
+          }
+        },
+        {
+          "client_id": "651086014912-oi6uof4v1qh5ihkfpqoqgblcnjl1q8kf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_iRXq_qBwQH7LrlmzbOBBx7A54_bBhfA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651086014912-oi6uof4v1qh5ihkfpqoqgblcnjl1q8kf.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

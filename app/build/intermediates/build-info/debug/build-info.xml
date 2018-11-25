@@ -1,177 +1,243 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="27"
+    abi="x86"
+    api-level="25"
     build-mode="FULL"
-    density="420dpi"
+    density="560dpi"
     format="10"
     plugin-version="3.2.1"
-    timestamp="1543086272802"
+    timestamp="1543160266322"
     token="-4816925225421496071"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="1107" />
+        duration="6410" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="30" />
+        duration="868" />
     <task
         name="verifier"
-        duration="8" />
+        duration="345" />
 
     <artifact
-        location="C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
         type="SPLIT_MAIN" />
+    <artifact
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1543086272802"
+        timestamp="1543160266322"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
+        <artifact
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\CPL-20182-Team8-onthejourney\CPL-20182-Team8-onthejourney\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/C:\Android\OntheJourney\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>

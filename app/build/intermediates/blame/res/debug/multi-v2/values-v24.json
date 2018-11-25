@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "/Users/hanhyeonmin/Desktop/android_travler/CPL-20182-Team8/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\a9ae33504fafef1b5858b2eaaf1d0bec\\res\\values-v24\\values-v24.xml",
+                    "source": "/Users/hanhyeonmin/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/4579a0865e597d04ea0b22e10c0e27f5/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\bc7cf69877cb11ccfa2d7dcf96cda31e\\res\\values-v24\\values-v24.xml",
+                    "source": "/Users/hanhyeonmin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/99c01e90b52fa99705a5c5a665767379/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
