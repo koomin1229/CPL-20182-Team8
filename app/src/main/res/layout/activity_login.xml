@@ -1,44 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity.LoginActivity">
+    android:orientation="vertical"
+    android:background="@drawable/loading_back"
+    tools:context=".Activity.LoginActivity" >
 
 
-    <com.shobhitpuri.custombuttons.GoogleSignInButton
+    <Button
         android:id="@+id/sign_in_button_customer"
+        android:layout_marginTop="430dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="100dp"
-        android:text="SignIn as Customer"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_gravity="center"
+        android:background="@drawable/signin_customer_button"/>
 
-    <com.shobhitpuri.custombuttons.GoogleSignInButton
+    <Button
         android:id="@+id/sign_in_button_buddy"
-        android:text="SignIn as Buddy"
+        android:layout_marginTop="15dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="50dp"
-        app:layout_constraintTop_toBottomOf="@id/sign_in_button_customer"
-        app:layout_constraintStart_toStartOf="@id/sign_in_button_customer"
-        />
+        android:layout_gravity="center"
+        android:background="@drawable/signin_buddy_button"/>
 
-    <com.shobhitpuri.custombuttons.GoogleSignInButton
+    <Button
         android:id="@+id/sign_up_button"
-        android:text="SignUp"
+        android:layout_marginTop="35dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="50dp"
-        app:layout_constraintTop_toBottomOf="@id/sign_in_button_buddy"
-        app:layout_constraintStart_toStartOf="@id/sign_in_button_buddy"
-        />
+        android:layout_gravity="center"
+        android:background="@drawable/signup_button"/>
 
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>

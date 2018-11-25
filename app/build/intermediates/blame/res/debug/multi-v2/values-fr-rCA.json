@@ -1,78 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr-rCA\\values-fr-rCA.xml",
+            "outputFile": "C:\\Users\\koomj\\AndroidStudioProjects\\merge\\CPL-20182-Team8\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr-rCA\\values-fr-rCA.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\ade92781f0b4a91e29945b842a9aaf96\\res\\values-fr-rCA\\values-fr-rCA.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,159,268,389,503,615,704,804,923,1020,1115,1210,1306,1418,1532,1616,1698,1783,1889,2003,2090",
-                        "endColumns": "103,108,120,113,111,88,99,118,96,94,94,95,111,113,83,81,84,105,113,86,95",
-                        "endOffsets": "154,263,384,498,610,699,799,918,1015,1110,1205,1301,1413,1527,1611,1693,1778,1884,1998,2085,2181"
-                    },
-                    "to": {
-                        "startLines": "47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "5780,5884,5993,6114,6228,6340,6429,6529,6648,6745,6840,6935,7031,7143,7257,7341,7423,7508,7614,7728,7815",
-                        "endColumns": "103,108,120,113,111,88,99,118,96,94,94,95,111,113,83,81,84,105,113,86,95",
-                        "endOffsets": "5879,5988,6109,6223,6335,6424,6524,6643,6740,6835,6930,7026,7138,7252,7336,7418,7503,7609,7723,7810,7906"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\1a599f58f05614478748087f3ef1026b\\res\\values-fr-rCA\\values-fr-rCA.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "71",
-                        "startColumns": "4",
-                        "startOffsets": "8208",
-                        "endColumns": "100",
-                        "endOffsets": "8304"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-16.0.0.aar\\986c8f4dd84aa69089d2d4649ce17fa8\\res\\values-fr-rCA\\values.xml",
-                    "from": {
-                        "startLines": "4,5",
-                        "startColumns": "0,0",
-                        "startOffsets": "197,304",
-                        "endColumns": "106,95",
-                        "endOffsets": "303,399"
-                    },
-                    "to": {
-                        "startLines": "68,69",
-                        "startColumns": "4,4",
-                        "startOffsets": "7911,8022",
-                        "endColumns": "110,99",
-                        "endOffsets": "8017,8117"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\45a7af0e91e04c17df28c113aac17216\\res\\values-fr-rCA\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "249,353,565,693,800,1030,1161,1308,1446,1700,1810,2026,2160,2379,2584,2683,2773",
-                        "endColumns": "103,211,127,106,229,130,146,137,253,109,215,133,218,204,98,89,108",
-                        "endOffsets": "352,564,692,799,1029,1160,1307,1445,1699,1809,2025,2159,2378,2583,2682,2772,2881"
-                    },
-                    "to": {
-                        "startLines": "29,30,31,32,33,34,35,36,38,39,40,41,42,43,44,45,46",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2879,2987,3199,3331,3442,3672,3807,3958,4320,4574,4688,4904,5042,5261,5470,5573,5667",
-                        "endColumns": "107,211,131,110,229,134,150,141,253,113,215,137,218,208,102,93,112",
-                        "endOffsets": "2982,3194,3326,3437,3667,3802,3953,4095,4569,4683,4899,5037,5256,5465,5568,5662,5775"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\bc7cf69877cb11ccfa2d7dcf96cda31e\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "source": "C:\\Users\\koomj\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\62de57e57a5ba83545a793bc148f64ec\\res\\values-fr-rCA\\values-fr-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -89,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.1.0.aar\\1118f371b196be48f23df05c63c7227c\\res\\values-fr-rCA\\values.xml",
+                    "source": "C:\\Users\\koomj\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.1.0.aar\\2900178860d1acf6da553c93cd6426e7\\res\\values-fr-rCA\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -103,6 +35,74 @@
                         "startOffsets": "4100",
                         "endColumns": "219",
                         "endOffsets": "4315"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\koomj\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\cb96e5ef456a51b7253ad4ddb97e345b\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "71",
+                        "startColumns": "4",
+                        "startOffsets": "8208",
+                        "endColumns": "100",
+                        "endOffsets": "8304"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\koomj\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\859e8008a71d57bc6d8329bb61700f29\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,268,389,503,615,704,804,923,1020,1115,1210,1306,1418,1532,1616,1698,1783,1889,2003,2090",
+                        "endColumns": "103,108,120,113,111,88,99,118,96,94,94,95,111,113,83,81,84,105,113,86,95",
+                        "endOffsets": "154,263,384,498,610,699,799,918,1015,1110,1205,1301,1413,1527,1611,1693,1778,1884,1998,2085,2181"
+                    },
+                    "to": {
+                        "startLines": "47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "5780,5884,5993,6114,6228,6340,6429,6529,6648,6745,6840,6935,7031,7143,7257,7341,7423,7508,7614,7728,7815",
+                        "endColumns": "103,108,120,113,111,88,99,118,96,94,94,95,111,113,83,81,84,105,113,86,95",
+                        "endOffsets": "5879,5988,6109,6223,6335,6424,6524,6643,6740,6835,6930,7026,7138,7252,7336,7418,7503,7609,7723,7810,7906"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\koomj\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\d474753a1f3076b9851e32c40ea01266\\res\\values-fr-rCA\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "249,353,565,693,800,1030,1161,1308,1446,1700,1810,2026,2160,2379,2584,2683,2773",
+                        "endColumns": "103,211,127,106,229,130,146,137,253,109,215,133,218,204,98,89,108",
+                        "endOffsets": "352,564,692,799,1029,1160,1307,1445,1699,1809,2025,2159,2378,2583,2682,2772,2881"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,34,35,36,38,39,40,41,42,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2879,2987,3199,3331,3442,3672,3807,3958,4320,4574,4688,4904,5042,5261,5470,5573,5667",
+                        "endColumns": "107,211,131,110,229,134,150,141,253,113,215,137,218,208,102,93,112",
+                        "endOffsets": "2982,3194,3326,3437,3667,3802,3953,4095,4569,4683,4899,5037,5256,5465,5568,5662,5775"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\koomj\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-16.0.0.aar\\8a27cda0eac2991638498ea1da1d4f88\\res\\values-fr-rCA\\values.xml",
+                    "from": {
+                        "startLines": "4,5",
+                        "startColumns": "0,0",
+                        "startOffsets": "197,304",
+                        "endColumns": "106,95",
+                        "endOffsets": "303,399"
+                    },
+                    "to": {
+                        "startLines": "68,69",
+                        "startColumns": "4,4",
+                        "startOffsets": "7911,8022",
+                        "endColumns": "110,99",
+                        "endOffsets": "8017,8117"
                     }
                 }
             ]

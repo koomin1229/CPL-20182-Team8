@@ -106,31 +106,41 @@
                 <Button
                     android:id="@+id/button5"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/my_page_button"
                     android:text="예약 목록" />
 
                 <Button
                     android:id="@+id/button4"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/my_page_button"
                     android:text="진행 목록" />
 
                 <Button
                     android:id="@+id/button3"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/my_page_button"
                     android:text="완료 목록" />
 
                 <Button
                     android:id="@+id/button2"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/my_page_button"
                     android:text="버디로 전환하기" />
 
                 <Button
                     android:id="@+id/button"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="43dp"
+                    android:background="@drawable/my_page_button"
                     android:text="기타" />
             </LinearLayout>
 

@@ -61,19 +61,19 @@ public final class R {
 
         public static final int amu_bubble_mask = 0x7f07005b;
         public static final int amu_bubble_shadow = 0x7f07005c;
-        public static final int common_full_open_on_phone = 0x7f070078;
-        public static final int common_google_signin_btn_icon_dark = 0x7f070079;
-        public static final int common_google_signin_btn_icon_dark_focused = 0x7f07007a;
-        public static final int common_google_signin_btn_icon_dark_normal = 0x7f07007b;
-        public static final int common_google_signin_btn_icon_light = 0x7f07007e;
-        public static final int common_google_signin_btn_icon_light_focused = 0x7f07007f;
-        public static final int common_google_signin_btn_icon_light_normal = 0x7f070080;
-        public static final int common_google_signin_btn_text_dark = 0x7f070082;
-        public static final int common_google_signin_btn_text_dark_focused = 0x7f070083;
-        public static final int common_google_signin_btn_text_dark_normal = 0x7f070084;
-        public static final int common_google_signin_btn_text_light = 0x7f070087;
-        public static final int common_google_signin_btn_text_light_focused = 0x7f070088;
-        public static final int common_google_signin_btn_text_light_normal = 0x7f070089;
+        public static final int common_full_open_on_phone = 0x7f070080;
+        public static final int common_google_signin_btn_icon_dark = 0x7f070081;
+        public static final int common_google_signin_btn_icon_dark_focused = 0x7f070082;
+        public static final int common_google_signin_btn_icon_dark_normal = 0x7f070083;
+        public static final int common_google_signin_btn_icon_light = 0x7f070086;
+        public static final int common_google_signin_btn_icon_light_focused = 0x7f070087;
+        public static final int common_google_signin_btn_icon_light_normal = 0x7f070088;
+        public static final int common_google_signin_btn_text_dark = 0x7f07008a;
+        public static final int common_google_signin_btn_text_dark_focused = 0x7f07008b;
+        public static final int common_google_signin_btn_text_dark_normal = 0x7f07008c;
+        public static final int common_google_signin_btn_text_light = 0x7f07008f;
+        public static final int common_google_signin_btn_text_light_focused = 0x7f070090;
+        public static final int common_google_signin_btn_text_light_normal = 0x7f070091;
     }
     public static final class id {
         private id() {}
@@ -86,14 +86,14 @@ public final class R {
         public static final int hybrid = 0x7f08007e;
         public static final int icon_only = 0x7f080081;
         public static final int light = 0x7f08009b;
-        public static final int none = 0x7f0800ec;
-        public static final int normal = 0x7f0800ed;
-        public static final int satellite = 0x7f08011e;
-        public static final int standard = 0x7f08014b;
-        public static final int terrain = 0x7f08015d;
-        public static final int webview = 0x7f08018e;
-        public static final int wide = 0x7f080191;
-        public static final int window = 0x7f080192;
+        public static final int none = 0x7f0800eb;
+        public static final int normal = 0x7f0800ec;
+        public static final int satellite = 0x7f08011d;
+        public static final int standard = 0x7f08014a;
+        public static final int terrain = 0x7f08015c;
+        public static final int webview = 0x7f08018d;
+        public static final int wide = 0x7f080190;
+        public static final int window = 0x7f080191;
     }
     public static final class integer {
         private integer() {}
