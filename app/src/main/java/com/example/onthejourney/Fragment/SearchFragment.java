@@ -66,8 +66,10 @@ public class SearchFragment extends Fragment {
                                 Log.d("search_fragment", result.getDatas().get(0).getImage_path());
                                 Log.d("search_fragment", ":" + result.getDatas().size());
 
-                                HashTagFeedItemAdapter adapter = new HashTagFeedItemAdapter(result.getDatas(), null, getContext(), customer);
-                                rv.setAdapter(adapter);
+                                if(result.getDatas().size() != 0) {
+                                    HashTagFeedItemAdapter adapter = new HashTagFeedItemAdapter(result.getDatas(), null, getContext(), customer);
+                                    rv.setAdapter(adapter);
+                                }
                             }
                         }
                 ).execute();

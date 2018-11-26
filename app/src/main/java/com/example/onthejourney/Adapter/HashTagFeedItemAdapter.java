@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.example.onthejourney.Activity.SliderView;
@@ -16,6 +17,7 @@ import com.example.onthejourney.Data.FavoriteFeed;
 import com.example.onthejourney.Data.FeedItem;
 import com.example.onthejourney.Module.HttpAsyncTask;
 import com.example.onthejourney.Module.MyCallBack;
+import com.example.onthejourney.Module.ResultBody;
 import com.example.onthejourney.R;
 import com.google.gson.reflect.TypeToken;
 
@@ -60,10 +62,11 @@ public class HashTagFeedItemAdapter extends RecyclerView.Adapter<ViewHolder> {
             public void onClick(View v) {
                 new HttpAsyncTask("POST", "favorite_feeds",
                         new FavoriteFeed(feedItems.get(position).get_id(), customer.getCustomer_id()).getJsonObject(),
-                        null, new TypeToken<FavoriteFeed>(){}.getType()
+                        null, new TypeToken<ResultBody<FavoriteFeed>>(){}.getType()
                         , new MyCallBack() {
                     @Override
                     public void doTask(Object resultBody) {
+                        Toast.makeText(context, "좋아하는 사진에 추가했어요~", Toast.LENGTH_SHORT).show();
                         Log.d("favorite_feed", "maked");
                     }
                 }).execute();
@@ -73,9 +76,6 @@ public class HashTagFeedItemAdapter extends RecyclerView.Adapter<ViewHolder> {
 
     @Override
     public int getItemCount() {
-        if (image_path_arr == null)
-            return 0;
-        else
-            return image_path_arr.size();
+        return feedItems.size();
     }
 }
