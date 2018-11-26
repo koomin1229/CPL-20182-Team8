@@ -25,6 +25,8 @@ import com.google.gson.reflect.TypeToken;
 
 import org.json.JSONObject;
 
+import javax.xml.transform.Result;
+
 
 public class SearchFragment extends Fragment {
     private EditText tv;
@@ -43,6 +45,19 @@ public class SearchFragment extends Fragment {
 
         rv = (RecyclerView) getActivity().findViewById(R.id.search_rv);
         rv.setLayoutManager(new GridLayoutManager(getContext(),3));
+
+        new HttpAsyncTask("GET", "feed_items", null, null,
+                new TypeToken<ResultBody<FeedItem>>() {
+                }.getType()
+                , new MyCallBack() {
+            @Override
+            public void doTask(Object resultBody) {
+                ResultBody<FeedItem> result = (ResultBody<FeedItem>) resultBody;
+
+                HashTagFeedItemAdapter adapater = new HashTagFeedItemAdapter(result.getDatas(), null, getContext(), customer);
+                rv.setAdapter(adapater);
+            }
+        }).execute();
 
         //HashTagFeedItemAdapter adapter = new HashTagFeedItemAdapter(null, null, getContext(), customer);
         //rv.setAdapter(adapter);
