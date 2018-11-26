@@ -4,6 +4,8 @@ var Schema = mongoose.Schema;
 var checkListSchema = new Schema({
     customer_id : {type:String, required: true},
     buddy_id : {type:String, required: true},
+    customer_name : String,
+    buddy_name : String,
     state : { type:String, required: true},
     start_year :String,
     start_month : String,
