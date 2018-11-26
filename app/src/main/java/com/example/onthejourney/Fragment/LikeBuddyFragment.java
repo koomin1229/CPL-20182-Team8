@@ -78,7 +78,7 @@ public class LikeBuddyFragment extends Fragment {
 
                 Log.d("image_path_list",s.toString());
 
-                Item_likephotographer_adapter adapter = new Item_likephotographer_adapter(buddies, s);
+                Item_likephotographer_adapter adapter = new Item_likephotographer_adapter(buddies,s);
                 rv.addOnItemTouchListener(
                         new Item_likephotographer_listener(getContext(), rv, new Item_likephotographer_listener.OnItemClickListener() {
                             @Override

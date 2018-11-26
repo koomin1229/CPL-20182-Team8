@@ -68,7 +68,7 @@ public class BookingActivity extends AppCompatActivity {
                             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                                 Intent intent = new Intent(BookingActivity.this, ChatActivity.class);
-                                intent.putExtra("notMe",((CheckList)chat_list.getItemAtPosition(position)).getBuddy_id());
+                                intent.putExtra("notMe",((CheckList)chat_list.getItemAtPosition(position)).getBuddy_name());
                                 intent.putExtra("Customer", customer);
                                 Log.d("Customer", customer.toString());
                                 intent.putExtra("chatName", ((CheckList)chat_list.getItemAtPosition(position)).getKey());

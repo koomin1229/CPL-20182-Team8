@@ -23,6 +23,7 @@ import com.example.onthejourney.Adapter.RecyclerViewAdapter;
 import com.example.onthejourney.Data.Buddy;
 import com.example.onthejourney.Data.CheckList;
 import com.example.onthejourney.Data.Customer;
+import com.example.onthejourney.Data.Favorite_Buddy;
 import com.example.onthejourney.Data.Profile;
 import com.example.onthejourney.Dialog.CheckListDialog;
 import com.example.onthejourney.Module.HttpAsyncTask;
@@ -75,7 +76,9 @@ public class Photographer_info extends AppCompatActivity {
                             Log.d("checklist", checkList.toString());
                             checkList.setState("예약중");
                             checkList.setBuddy_id(buddy.getBuddy_id());
+                            checkList.setBuddy_name(buddy.getName());
                             checkList.setCustomer_id(me.getCustomer_id());
+                            checkList.setCustomer_name(me.getName());
                             JSONObject jsonObject = checkList.getJsonObject();
                             new HttpAsyncTask("POST", "checkLists", jsonObject, null, new TypeToken<ResultBody<CheckList>>() {
                             }.getType(),
@@ -112,11 +115,61 @@ public class Photographer_info extends AppCompatActivity {
         }
         likeText.setOnTouchListener(new View.OnTouchListener() {
             @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                if (event.getAction() == MotionEvent.ACTION_DOWN) {
-                    if (like == false) like = true; //true이면 선호작가에 추가
-                    else like = false;
-                }
+            public boolean onTouch(View v, final MotionEvent event) {
+
+                new HttpAsyncTask("GET", "favorite_buddies" , null, null, new TypeToken<ResultBody<Favorite_Buddy>>() {
+                }.getType(),
+                        new MyCallBack() {
+                            @Override
+                            public void doTask(Object resultBody) {
+                                Favorite_Buddy fb = new Favorite_Buddy();
+
+                                ResultBody<Favorite_Buddy> result = (ResultBody<Favorite_Buddy>) resultBody;
+                                for(int i=0;i<result.getDatas().size();i++){
+                                    fb = result.getDatas().get(i);
+                                    if(fb.getBuddy_id().equals(buddy.getBuddy_id()) && fb.getCustomer_id().equals(me.getCustomer_id())){
+                                        break;
+                                    }
+                                }
+
+
+
+                                Log.d("_id",fb.toString());
+
+                                if (event.getAction() == MotionEvent.ACTION_DOWN) {
+                                    if (like == false) like = true; //true이면 선호작가에 추가
+                                    else like = false;
+                                }
+                                if(like) {
+                                    JSONObject jsonObject = fb.getJsonObject();
+                                    new HttpAsyncTask("POST", "favorite_buddies/" , jsonObject, null, new TypeToken<ResultBody<Favorite_Buddy>>() {
+                                    }.getType(),
+                                            new MyCallBack() {
+                                                @Override
+                                                public void doTask(Object resultBody) {
+                                                    ResultBody<Favorite_Buddy> result = (ResultBody<Favorite_Buddy>) resultBody;
+                                                }
+                                            })
+                                            .execute();
+                                }
+                                else{
+                                    Log.d("else",fb.toString());
+                                    new HttpAsyncTask("DELETE", "favorite_buddies/" + fb.get_id(),null, null, new TypeToken<ResultBody<Favorite_Buddy>>() {
+                                    }.getType(),
+                                            new MyCallBack() {
+                                                @Override
+                                                public void doTask(Object resultBody) {
+                                                    ResultBody<Favorite_Buddy> result = (ResultBody<Favorite_Buddy>) resultBody;
+                                                }
+                                            })
+                                            .execute();
+                                }
+
+
+                            }
+                        })
+                        .execute();
+
                 return false;
             }
         });
@@ -137,6 +190,19 @@ public class Photographer_info extends AppCompatActivity {
                 }
         ).execute();
 
+        final TextView likeNum = findViewById(R.id.likeNum);
+        new HttpAsyncTask("GET", "favorite_buddies/buddy/" + buddy.getBuddy_id(), null, null, new TypeToken<ResultBody<Profile>>() {
+        }.getType(),
+                new MyCallBack() {
+                    @Override
+                    public void doTask(Object resultBody) {
+                        ResultBody<Profile> result = (ResultBody<Profile>) resultBody;
+                        likeNum.setText(Integer.toString(result.getDatas().size()));
+                    }
+                }
+        ).execute();
+        TextView area = findViewById(R.id.area);
+        area.setText(buddy.getLocation_name());
         this.rvSample = (RecyclerView) findViewById(R.id.rvSample);
         this.rvSample.setLayoutManager(new GridLayoutManager(this, 3));
 

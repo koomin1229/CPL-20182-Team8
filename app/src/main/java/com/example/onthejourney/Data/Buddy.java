@@ -13,6 +13,7 @@ import java.util.ArrayList;
 
 
 public class Buddy implements ClusterItem, Parcelable {
+    private String _id = null;
     private LatLng active_location;
     private double latitude = 0;
     private double longitude = 0;
@@ -68,6 +69,14 @@ public class Buddy implements ClusterItem, Parcelable {
         likeFlag = in.readInt();
     }
 
+    public String get_id() {
+        return _id;
+    }
+
+    public void set_id(String _id) {
+        this._id = _id;
+    }
+
     public static final Creator<Buddy> CREATOR = new Creator<Buddy>() {
         @Override
         public Buddy createFromParcel(Parcel in) {
@@ -108,6 +117,14 @@ public class Buddy implements ClusterItem, Parcelable {
 
     public void setLocation_name(String location_name) {
         this.location_name = location_name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     @Override

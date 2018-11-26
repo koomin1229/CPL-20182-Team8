@@ -47,4 +47,6 @@ public class RequestFragmentPagerAdapterMy extends FragmentPagerAdapter {
     public int getCount() {
         return 2;
     }
+
+
 }

@@ -50,11 +50,12 @@ public class requestAchat extends Fragment {
         buddy = (Buddy)getArguments().get("Buddy");
         Log.d("buddy",buddy.toString());
         RequestFragmentPagerAdapterMy adapter = new RequestFragmentPagerAdapterMy(
-                getActivity().getSupportFragmentManager(), buddy
+                getChildFragmentManager(), buddy
         );
 
         if(viewPager == null) {
             viewPager = (ViewPager) getActivity().findViewById(R.id.reqViewPager);
+            viewPager.setOffscreenPageLimit(2);
             viewPager.setAdapter(adapter);
 
             TabLayout tabLayout = (TabLayout) getActivity().findViewById(R.id.reqTabs);

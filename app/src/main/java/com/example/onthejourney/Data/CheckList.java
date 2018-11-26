@@ -13,6 +13,8 @@ public class CheckList {
     private String _id = null;
     private String customer_id=null;
     private String buddy_id = null;
+    private String customer_name=null;
+    private String buddy_name=null;
     private String state = null;
     private String start_year = null;
     private String start_month = null;
@@ -48,12 +50,30 @@ public class CheckList {
         this.suggested_price = suggested_price;
     }
 
+
+
     public String get_id() {
         return _id;
     }
 
     public void set_id(String _id) {
         this._id = _id;
+    }
+
+    public String getCustomer_name() {
+        return customer_name;
+    }
+
+    public void setCustomer_name(String customer_name) {
+        this.customer_name = customer_name;
+    }
+
+    public String getBuddy_name() {
+        return buddy_name;
+    }
+
+    public void setBuddy_name(String buddy_name) {
+        this.buddy_name = buddy_name;
     }
 
     public String getStart_year() {
@@ -204,6 +224,8 @@ public class CheckList {
             jsonObject = new JSONObject();
             jsonObject.put("customer_id", customer_id);
             jsonObject.put("buddy_id", buddy_id);
+            jsonObject.put("customer_name", customer_name);
+            jsonObject.put("buddy_name", buddy_name);
             jsonObject.put("state", state);
             jsonObject.put("start_year", start_year);
             jsonObject.put("start_month", start_month);

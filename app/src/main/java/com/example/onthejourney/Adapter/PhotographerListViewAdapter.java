@@ -1,6 +1,7 @@
 package com.example.onthejourney.Adapter;
 
 import android.content.Context;
+import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -50,14 +51,14 @@ public class PhotographerListViewAdapter extends BaseAdapter {
         final ImageView imageView1;
         final ImageView imageView2;
         final ImageView imageView3;
-        final TextView like;
+        final ImageView like;
         if (convertView == null) {
             context = parent.getContext();
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             convertView = inflater.inflate(R.layout.photographer, parent, false);
         }
 
-        like = convertView.findViewById(R.id.like);
+        like = convertView.findViewById(R.id.like1);
         titleTextView = (TextView) convertView.findViewById(R.id.textView);
         imageView1 = (ImageView) convertView.findViewById(R.id.imageView1);
         imageView2 = (ImageView) convertView.findViewById(R.id.imageView2);
@@ -74,7 +75,8 @@ public class PhotographerListViewAdapter extends BaseAdapter {
         Buddy buddy = listViewItemList.get(position);
         titleTextView.setText(buddy.getBuddy_id());
         if (buddy.getLikeFlag() == 1)
-            like.setText("♥ ");
+            like.setBackground(context.getDrawable(R.drawable.like));
+
         return convertView;
     }
 

@@ -48,26 +48,31 @@
         android:id="@+id/linearLayout"
         android:visibility="gone"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.8"
-        android:orientation="horizontal">
+        android:layout_height="34dp"
+        android:orientation="horizontal"
+        android:background="@drawable/buddy_list">
 
         <TextView
             android:id="@+id/thisArea"
-            android:background="@drawable/buddy_list"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="184dp"
+            android:layout_marginTop="5dp"
+            android:gravity="left"
+            android:text="(총 "/>
 
         <TextView
             android:id="@+id/count"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"/>
 
         <TextView
             android:id="@+id/mung"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="명" />
+            android:layout_marginTop="5dp"
+            android:text="명)" />
     </LinearLayout>
 
     <ListView
@@ -75,7 +80,6 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="7"
-        android:background="@drawable/buddy_background"
         android:visibility="gone">
 
     </ListView>

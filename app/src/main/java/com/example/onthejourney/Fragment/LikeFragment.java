@@ -50,7 +50,7 @@ public class LikeFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         customer = (Customer)getArguments().get("Customer");
         MyAdapter adapter = new MyAdapter(
-                getActivity().getSupportFragmentManager()
+                getChildFragmentManager()
         );
 
 
