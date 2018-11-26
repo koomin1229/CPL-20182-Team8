@@ -76,19 +76,20 @@ public class RequestHttpURLConnection {
                     feedId.add(json.getString(option2));
 
                 }
-                jsonPage = getStringFromUrl("http://ec2-18-222-114-158.us-east-2.compute.amazonaws.com:3000/feed_items");
-                json = new JSONObject(jsonPage);
-                jArr = json.getJSONArray("datas");
-                for(int i=0;i<jArr.length();i++){
-                    json = jArr.getJSONObject(i);
-                    for(int j=0;j<feedId.size();j++) {
-                        if (json.getString("_id").equals(feedId.get(j))){
-                            arrayList.add(json.getString("image_path"));
-                            break;
+                if(feedId.size() > 0) {
+                    jsonPage = getStringFromUrl("http://ec2-18-222-114-158.us-east-2.compute.amazonaws.com:3000/feed_items");
+                    json = new JSONObject(jsonPage);
+                    jArr = json.getJSONArray("datas");
+                    for (int i = 0; i < jArr.length(); i++) {
+                        json = jArr.getJSONObject(i);
+                        for (int j = 0; j < feedId.size(); j++) {
+                            if (json.getString("_id").equals(feedId.get(j))) {
+                                arrayList.add(json.getString("image_path"));
+                                break;
+                            }
                         }
                     }
                 }
-
             }
 
             return arrayList;
@@ -128,7 +129,7 @@ public class RequestHttpURLConnection {
 
     public String getStringFromUrl(String pUrl) {
 
-        BufferedReader bufreader = null;
+
         HttpURLConnection urlConnection = null;
 
         StringBuffer page = new StringBuffer(); //읽어온 데이터를 저장할 StringBuffer객체 생성
@@ -149,7 +150,9 @@ public class RequestHttpURLConnection {
                 urlConnection = (HttpURLConnection) url.openConnection();
             }catch (FileNotFoundException e){
                 e.printStackTrace();
+                return null;
             }
+            BufferedReader bufreader = null;
             InputStream contentStream = urlConnection.getInputStream();
 
             bufreader = new BufferedReader(new InputStreamReader(contentStream, "UTF-8"));
@@ -161,17 +164,14 @@ public class RequestHttpURLConnection {
                 page.append(line);
             }
 
+            bufreader.close();
             return page.toString();
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
             //자원해제
-            try {
-                bufreader.close();
-                urlConnection.disconnect();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+
+            urlConnection.disconnect();
 
         }
         return null;

@@ -1,5 +1,6 @@
 package com.example.onthejourney.Activity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -21,6 +22,7 @@ import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.common.api.ApiException;
+import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.gson.reflect.TypeToken;
@@ -31,6 +33,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     public static final int BUDDY_SIGN_IN = 50002;
     public static final int SIGN_UP = 50003;
 
+
+    private Buddy buddy = new Buddy();
     GoogleSignInClient mGoogleSignInClient = null;
     GoogleSignInAccount mGoogleAccount;
     Button mCustomerSignInButton = null;
@@ -132,7 +136,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                         /*  회원 가입이 되어 있을 때  */
                         if(result.getDatas().size() == 1){
                             Intent intent = new Intent(LoginActivity.this, HomeActivityBuddy.class);
-                            intent.putExtra("BuddyAccount", result.getDatas().get(0));
+                            intent.putExtra("Buddy", result.getDatas().get(0));
                             startActivity(intent);
                         }
                         /*  회원 가입이 되어 있지 않을 때  */
@@ -160,7 +164,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                         /*  회원 가입이 되어 있을 때  */
                         if(result.getDatas().size() == 1){
                             Intent intent = new Intent(LoginActivity.this, HomeActivityCustomer.class);
-                            intent.putExtra("CustomerAccount", result.getDatas().get(0));
+                            intent.putExtra("Customer", result.getDatas().get(0));
                             startActivity(intent);
                         }
                         /*  회원 가입이 되어 있지 않을 때  */
@@ -189,18 +193,46 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                             }
                         }).execute();
 
-                /*
-                new HttpAsyncTask("POST", "buddies",
-                        new Buddy())
-                        */
+                buddy.setBuddy_id(account.getId());
+                buddy.setmTitle(account.getFamilyName()+ account.getGivenName());
+
+                Intent intent = new Intent(this, SignUpActivity.class);
+                startActivityForResult(intent, 1);
+
+
+
             }catch (ApiException e){
                 e.printStackTrace();
             }
         }
+        else if(requestCode == 1){
+            if(resultCode == Activity.RESULT_OK){
+                assert data != null;
+                buddy.setLocation_name(data.getStringExtra("str"));
+                buddy.setmPosition((LatLng)data.getParcelableExtra("Latlng"));
+                Log.d("str",buddy.getLocation_name());
+                Log.d("Latlng",buddy.getmPosition().toString());
+                new HttpAsyncTask("POST", "buddies",
+                        new Buddy(buddy).getJsonObject(),
+                        null, new TypeToken<ResultBody<Customer>>() {
+                }.getType(),
+                        new MyCallBack() {
+                            @Override
+                            public void doTask(Object resultBody) {
+                                System.out.println("make buddy");
+                            }
+                        }).execute();
+
+            }
+        }
     }
+
+
 
     public void updateUI(GoogleSignInAccount account){
         Toast.makeText(getApplicationContext(), account.getFamilyName() + account.getGivenName(), Toast.LENGTH_LONG).show();
     }
+
+
 
 }

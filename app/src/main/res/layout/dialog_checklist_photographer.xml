@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+    android:layout_width="360dp"
     android:layout_height="wrap_content"
     android:background="#fff"
     android:orientation="vertical">
@@ -10,151 +10,132 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:gravity="start"
-        android:paddingLeft="24dp"
+        android:gravity="center"
         android:paddingTop="16dp"
-        android:paddingBottom="16dp"
-        android:text="체크 리스트"
-        android:textColor="#000"
+        android:text="체크리스트"
+        android:textColor="#424242"
         android:textSize="20sp" />
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/checklist_dialog">
 
         <TextView
-            android:layout_gravity="center"
+            android:layout_gravity="left"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="61dp"
             android:id="@+id/checklist_photographer_buddyId"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <LinearLayout
-            android:layout_gravity="center"
+            android:layout_gravity="left"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="61dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="날짜 : " />
 
             <TextView
                 android:id="@+id/checklist_photographer_start"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
-                android:text=" ~ "
+                android:text=" ~  "
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
+
             <TextView
                 android:id="@+id/checklist_photographer_end"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
-        <LinearLayout
-            android:layout_gravity="center"
+
+        <TextView
+            android:id="@+id/checklist_photographer_location"
+            android:layout_gravity="left"
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="61dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="장소 : " />
-
-            <TextView
-                android:id="@+id/checklist_photographer_location"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-        </LinearLayout>
+            android:layout_height="wrap_content" />
 
         <LinearLayout
-            android:layout_gravity="center"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="인원 : " />
-
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="left"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="61dp" >
             <TextView
                 android:id="@+id/checklist_photographer_number"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="제시금액 " />
+                android:text="명"/>
+        </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="87dp" >
             <TextView
                 android:id="@+id/checklist_photographer_suggestPrice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
-
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="원"/>
         </LinearLayout>
-
-
         <TextView
-            android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="요구사항 " />
-
-        <TextView
-            android:layout_gravity="center"
             android:id="@+id/checklist_photographer_suggest1"
+            android:layout_gravity="left"
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="87dp"
+            android:layout_marginBottom="3dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
-
-
 
     </LinearLayout>
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="16dp" />
+        android:layout_height="10dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
         android:gravity="end"
         android:orientation="horizontal"
         android:paddingTop="4dp"
-        android:paddingBottom="4dp"
+        android:layout_marginBottom="23dp"
         android:weightSum="10">
 
         <TextView
             android:id="@+id/findPwDialogCancelTv"
-            android:layout_width="0dp"
+            android:layout_width="46dp"
             android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:background="?attr/selectableItemBackground"
+            android:background="@drawable/checklist_reject"
+            android:layout_marginRight="10dp"
             android:clickable="true"
-            android:gravity="center"
-            android:text="거절"
-            android:textColor="@color/colorAccent"
-            android:textSize="16sp" />
+            android:text="    "/>
 
         <TextView
             android:id="@+id/findPwDialogFindTv"
-            android:layout_width="0dp"
+            android:layout_width="46dp"
             android:layout_height="match_parent"
-            android:layout_weight="3"
-            android:background="?attr/selectableItemBackground"
+            android:background="@drawable/checklist_accept"
+            android:layout_marginRight="20dp"
             android:clickable="true"
-            android:gravity="center"
-            android:text="작업 수락"
-            android:textColor="@color/colorAccent"
-            android:textSize="16sp" />
+            android:text="    " />
     </LinearLayout>
 
 </LinearLayout>

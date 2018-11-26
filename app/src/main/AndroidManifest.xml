@@ -55,7 +55,7 @@
                     android:scheme="http" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.HomeActivityCustomer"></activity>
+        <activity android:name=".Activity.HomeActivityCustomer" />
         <activity android:name=".Activity.Photographer_info" />
         <activity android:name=".Activity.SliderView" />
         <activity android:name=".Activity.Notice" />
@@ -75,7 +75,8 @@
         <activity android:name=".Activity.LoginSelectActivity" />
         <activity android:name=".Activity.BookingActivity" />
         <activity android:name=".Activity.HomeActivityBuddy" />
-        <activity android:name=".Activity.SignUpActivity"></activity>
+        <activity android:name=".Activity.SignUpActivity" />
+        <activity android:name=".Activity.ReviewActivity"></activity>
     </application>
 
 </manifest>

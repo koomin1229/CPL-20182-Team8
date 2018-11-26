@@ -23,6 +23,7 @@ import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
 public class HomeActivityCustomer extends AppCompatActivity {
 
+    Fragment fragment = null;
     private FragmentManager fragmentManager;
     private int flag = 0;
     Customer Customer = null;
@@ -33,9 +34,7 @@ public class HomeActivityCustomer extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         Customer = new Customer("hhm","hhm","hhm");
-        //Customer = (Customer) getIntent().getParcelableExtra("Customer");
-        // Intent login_select = new Intent(this, LoginSelectActivity.class);
-        // startActivity(login_select);
+       //Customer = (Customer) getIntent().getParcelableExtra("Customer");
 
 
         fragmentManager = getSupportFragmentManager();
@@ -48,8 +47,12 @@ public class HomeActivityCustomer extends AppCompatActivity {
 
         // HomeActivity의 Default Fragment 설정
         if (savedInstanceState == null) {
+            fragment = new SearchFragment();
+            Bundle args = new Bundle();
+            args.putParcelable("Customer", Customer);
+            fragment.setArguments(args);
             getSupportFragmentManager().
-                    beginTransaction().replace(R.id.main_container, new SearchFragment()).commit();
+                    beginTransaction().replace(R.id.main_container, fragment).commit();
         }
 
         // BottomNavigationView의 item을 클릭했을 때 Fragment 전환
@@ -57,7 +60,7 @@ public class HomeActivityCustomer extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 flag = 0;
-                Fragment fragment = null;
+
                 Fragment currentFragment = getSupportFragmentManager().findFragmentById(R.id.main_container);
                 switch (item.getItemId()) {
                     case R.id.search:

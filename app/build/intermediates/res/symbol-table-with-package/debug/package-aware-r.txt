@@ -1153,6 +1153,7 @@ drawable android_construction
 drawable avd_hide_password
 drawable avd_show_password
 drawable black_border
+drawable book_list_back
 drawable btn_google_dark_disabled
 drawable btn_google_dark_focus
 drawable btn_google_dark_normal
@@ -1169,9 +1170,17 @@ drawable btn_google_signin_light_disabled
 drawable btn_google_signin_light_focus
 drawable btn_google_signin_light_normal
 drawable btn_google_signin_light_pressed
+drawable buddy1
 drawable buddy_background
 drawable buddy_list
+drawable buddy_schedule
+drawable buddy_schedule_long
 drawable button
+drawable calendar_orange
+drawable chat_orange
+drawable checklist_accept
+drawable checklist_dialog
+drawable checklist_reject
 drawable circle_grey
 drawable circle_opaque
 drawable circle_red
@@ -1195,6 +1204,7 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable customer_schedule_long
 drawable dark_theme_google_icon_selector
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
@@ -1202,9 +1212,13 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable dialog_checklist_customer_cancel
+drawable dialog_checklist_customer_send
 drawable evp_action_pause
 drawable evp_action_play
 drawable evp_action_restart
+drawable feed_align
+drawable feed_orange
 drawable follow_button
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
@@ -1426,6 +1440,7 @@ drawable instagram_logo
 drawable light_theme_google_icon_selector
 drawable like
 drawable like_orange
+drawable list_book
 drawable loading_back
 drawable location_orange
 drawable maps_search_bar
@@ -1467,7 +1482,9 @@ drawable mr_vol_type_audiotrack_dark
 drawable mr_vol_type_audiotrack_light
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
+drawable my_page_button
 drawable mypage_orange
+drawable mypage_top
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg
@@ -1489,6 +1506,11 @@ drawable powered_by_google_dark
 drawable powered_by_google_light
 drawable request
 drawable selecter_like
+drawable signin_buddy_button
+drawable signin_customer_button
+drawable signup_button
+drawable slider_like
+drawable slider_unlike
 drawable story_progress_bar
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1503,9 +1525,13 @@ id ALT
 id ButtonLinear
 id CTRL
 id FUNCTION
+id LikeBuddyLike
+id LikeBuddyLocation
 id META
 id SHIFT
 id SYM
+id SliderImageLike
+id SliderImageLikeNum
 id action0
 id action_bar
 id action_bar_activity_content
@@ -1549,6 +1575,7 @@ id button4
 id button5
 id buttonInsearch
 id buttonPanel
+id buttonn
 id c_login_button
 id calendarView
 id cancel_action
@@ -1649,6 +1676,10 @@ id item_request_people_number
 id item_request_start
 id item_request_suggest1
 id item_request_suggestPrice
+id item_review_buddyid
+id item_review_comments
+id item_review_customerid
+id item_review_grade
 id item_touch_helper_previous_elevation
 id labeled
 id largeLabel
@@ -1667,7 +1698,6 @@ id listMode
 id listView
 id listView_request
 id list_item
-id list_schedule
 id location
 id locationEt
 id main_container
@@ -1754,6 +1784,7 @@ id people_numberEt
 id percent
 id pin
 id place_autocomplete_clear_button
+id place_autocomplete_fragment
 id place_autocomplete_fragment1
 id place_autocomplete_powered_by_google
 id place_autocomplete_prediction_primary_text
@@ -1769,6 +1800,7 @@ id progress_horizontal
 id radio
 id rating
 id recyclerImageView
+id recyclerImageView1
 id recycler_view
 id relLayout1
 id relLayout2
@@ -1784,6 +1816,7 @@ id right
 id right_icon
 id right_side
 id rvLikePhoto
+id rvReview
 id rvSample
 id satellite
 id saturday
@@ -1806,6 +1839,7 @@ id search_edit_frame
 id search_go_btn
 id search_mag_icon
 id search_plate
+id search_rv
 id search_src_text
 id search_voice_btn
 id select_dialog_listview
@@ -1817,6 +1851,8 @@ id showTitle
 id sign_in_button_buddy
 id sign_in_button_customer
 id sign_up_button
+id sliderBuddyName
+id sliderBuddyProfile
 id sliderImageView
 id smallLabel
 id snackbar_action
@@ -1861,6 +1897,9 @@ id textSpacerNoTitle
 id textStart
 id textView
 id textView2
+id textView3
+id textView4
+id textView5
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1970,6 +2009,7 @@ layout activity_maps
 layout activity_notice
 layout activity_photographer_info
 layout activity_resigter
+layout activity_review
 layout activity_schedule
 layout activity_sign_up
 layout activity_slider_view
@@ -2004,6 +2044,7 @@ layout fragment_schedule
 layout fragment_search
 layout item_likephotographer_recycler_view
 layout item_request
+layout item_review_recycler_view
 layout layout_bottom_navigation_view
 layout layout_center_profile
 layout layout_top_tabs
@@ -2046,6 +2087,7 @@ layout place_autocomplete_item_powered_by_google
 layout place_autocomplete_item_prediction
 layout place_autocomplete_progress
 layout recyclerviewimage
+layout recyclerviewimage1
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

@@ -148,6 +148,10 @@
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\bc7cf69877cb11ccfa2d7dcf96cda31e\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_dialog_checklist_customer_send.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\dialog_checklist_customer_send.png"
+    },
+    {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connecting_21_light.png.flat",
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\ade92781f0b4a91e29945b842a9aaf96\\res\\drawable-xhdpi-v4\\ic_mr_button_connecting_21_light.png"
     },
@@ -220,12 +224,12 @@
         "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
-        "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\bc7cf69877cb11ccfa2d7dcf96cda31e\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
-    },
-    {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_btn_google_signin_dark_disabled.9.png.flat",
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\google-signin-1.0.0.aar\\c5e19055f6c2b48e6958055f5738a852\\res\\drawable-mdpi-v4\\btn_google_signin_dark_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\bc7cf69877cb11ccfa2d7dcf96cda31e\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\raw_amu_unknwown_folder.kml.flat",
@@ -438,6 +442,10 @@
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_center_profile.xml.flat",
         "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\layout\\layout_center_profile.xml"
+    },
+    {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_review_recycler_view.xml.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\layout\\item_review_recycler_view.xml"
     },
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -748,6 +756,10 @@
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\bc7cf69877cb11ccfa2d7dcf96cda31e\\res\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_review.xml.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\layout\\activity_review.xml"
+    },
+    {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\bc7cf69877cb11ccfa2d7dcf96cda31e\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
@@ -782,6 +794,10 @@
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_description.png.flat",
         "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_description.png"
+    },
+    {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_calendar_orange.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\calendar_orange.png"
     },
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_btn_google_signin_light_disabled.9.png.flat",
@@ -916,6 +932,10 @@
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\bc7cf69877cb11ccfa2d7dcf96cda31e\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_chat_orange.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\chat_orange.png"
+    },
+    {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_display_name.png.flat",
         "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\mipmap-xhdpi\\ic_display_name.png"
     },
@@ -1022,6 +1042,10 @@
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_btn_ripple_color.xml.flat",
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\db082924a967ae0074c75320dca0858e\\res\\color\\mtrl_btn_ripple_color.xml"
+    },
+    {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_book_list_back.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\book_list_back.png"
     },
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_username.png.flat",
@@ -1358,6 +1382,10 @@
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connected_13_dark.png.flat",
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\ade92781f0b4a91e29945b842a9aaf96\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_13_dark.png"
+    },
+    {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_slider_like.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\slider_like.png"
     },
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_mcam_camera_rear.xml.flat",
@@ -2120,6 +2148,10 @@
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\google-signin-1.0.0.aar\\c5e19055f6c2b48e6958055f5738a852\\res\\drawable-tvdpi-v4\\btn_google_dark_disabled.9.png"
     },
     {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_checklist_reject.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\checklist_reject.png"
+    },
+    {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_background_cache_hint_selector_material_dark.xml.flat",
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\bc7cf69877cb11ccfa2d7dcf96cda31e\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
     },
@@ -2174,6 +2206,10 @@
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_amu_bubble_mask.9.png.flat",
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\android-maps-utils-0.5.aar\\7f95e9ba61294ce1c0052da200cb7c18\\res\\drawable-xxhdpi-v4\\amu_bubble_mask.9.png"
+    },
+    {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_slider_unlike.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\slider_unlike.png"
     },
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_btn_google_dark_focus.9.png.flat",
@@ -2336,6 +2372,10 @@
         "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-mdpi\\ic_alert.png"
     },
     {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_signup_button.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\signup_button.png"
+    },
+    {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_btn_google_signin_dark_normal.9.png.flat",
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\google-signin-1.0.0.aar\\c5e19055f6c2b48e6958055f5738a852\\res\\drawable-xxhdpi-v4\\btn_google_signin_dark_normal.9.png"
     },
@@ -2398,6 +2438,10 @@
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_display_name.png.flat",
         "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_display_name.png"
+    },
+    {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_mypage_top.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\mypage_top.png"
     },
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_btn_google_light_disabled.9.png.flat",
@@ -2870,6 +2914,10 @@
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\bc7cf69877cb11ccfa2d7dcf96cda31e\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_buddy1.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\buddy1.png"
     },
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_group_collapse_12.png.flat",
@@ -3404,6 +3452,10 @@
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\ade92781f0b4a91e29945b842a9aaf96\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_08_light.png"
     },
     {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\layout_recyclerviewimage1.xml.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\layout\\recyclerviewimage1.xml"
+    },
+    {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connected_02_light.png.flat",
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\ade92781f0b4a91e29945b842a9aaf96\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_02_light.png"
     },
@@ -3442,6 +3494,14 @@
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_places_ic_search.png.flat",
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-16.0.0.aar\\986c8f4dd84aa69089d2d4649ce17fa8\\res\\drawable-xxxhdpi-v4\\places_ic_search.png"
+    },
+    {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_feed_align.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\feed_align.png"
+    },
+    {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_signin_customer_button.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\signin_customer_button.png"
     },
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_arrow.png.flat",
@@ -3576,6 +3636,10 @@
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\google-signin-1.0.0.aar\\c5e19055f6c2b48e6958055f5738a852\\res\\drawable-hdpi-v4\\btn_google_light_pressed.9.png"
     },
     {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_feed_orange.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\feed_orange.png"
+    },
+    {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_backarrow.png.flat",
         "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\ic_backarrow.png"
     },
@@ -3614,6 +3678,10 @@
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_up.xml.flat",
         "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_buddy_schedule_long.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\buddy_schedule_long.png"
     },
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_exit.xml.flat",
@@ -3724,6 +3792,10 @@
         "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_checkmark.png"
     },
     {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_customer_schedule_long.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\customer_schedule_long.png"
+    },
+    {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connecting_13_light.png.flat",
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\ade92781f0b4a91e29945b842a9aaf96\\res\\drawable-xhdpi-v4\\ic_mr_button_connecting_13_light.png"
     },
@@ -3808,6 +3880,10 @@
         "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_new_round.png"
     },
     {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_checklist_dialog.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\checklist_dialog.png"
+    },
+    {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_white_x.png.flat",
         "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_white_x.png"
     },
@@ -3862,6 +3938,10 @@
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connected_23_dark.png.flat",
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\ade92781f0b4a91e29945b842a9aaf96\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_23_dark.png"
+    },
+    {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_signin_buddy_button.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\signin_buddy_button.png"
     },
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\color_design_error.xml.flat",
@@ -4668,6 +4748,10 @@
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\google-signin-1.0.0.aar\\c5e19055f6c2b48e6958055f5738a852\\res\\drawable-hdpi-v4\\btn_google_signin_dark_normal.9.png"
     },
     {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_my_page_button.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\my_page_button.png"
+    },
+    {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\bc7cf69877cb11ccfa2d7dcf96cda31e\\res\\drawable-xxxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
@@ -4702,6 +4786,10 @@
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\bc7cf69877cb11ccfa2d7dcf96cda31e\\res\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_buddy_schedule.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\buddy_schedule.png"
     },
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_mcam_action_flash_off.xml.flat",
@@ -5084,6 +5172,10 @@
         "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\mcam_camera_front.xml"
     },
     {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_dialog_checklist_customer_cancel.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\dialog_checklist_customer_cancel.png"
+    },
+    {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_add_to_story.png.flat",
         "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_add_to_story.png"
     },
@@ -5106,6 +5198,10 @@
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_spinner.xml.flat",
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\bc7cf69877cb11ccfa2d7dcf96cda31e\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_checklist_accept.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\checklist_accept.png"
     },
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connecting_29_dark.png.flat",
@@ -5246,6 +5342,10 @@
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\bc7cf69877cb11ccfa2d7dcf96cda31e\\res\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_list_book.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\list_book.png"
     },
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connected_30_light.png.flat",

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:2:1-81:12
+ADDED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:2:1-82:12
 MERGED from [com.github.okaybroda:FragmentStateManager:1.0.1] C:\Users\안준영\.gradle\caches\transforms-1\files-1.1\FragmentStateManager-1.0.1.aar\429d85071ab446589873356325e96d0e\AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:mediarouter-v7:28.0.0] C:\Users\안준영\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-28.0.0.aar\ade92781f0b4a91e29945b842a9aaf96\AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.ittianyu:BottomNavigationViewEx:2.0.2] C:\Users\안준영\.gradle\caches\transforms-1\files-1.1\BottomNavigationViewEx-2.0.2.aar\12f773991fabec4bfedc27c670c2a2f3\AndroidManifest.xml:2:1-14:12
@@ -73,20 +73,20 @@ MERGED from [com.android.support:print:28.0.0] C:\Users\안준영\.gradle\caches\tr
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\안준영\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\c98eba546f1a7dce919361bdff111496\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\안준영\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\7656623cfb30762d00649fb3e2ed0163\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\안준영\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-16.0.1.aar\37414b80565c931505f7ccb9d28e13d0\AndroidManifest.xml:2:1-7:12
-INJECTED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:2:1-82:12
 	package
 		ADDED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml
-		ADDED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:2:1-81:12
+		ADDED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:2:1-82:12
 		INJECTED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml
-		ADDED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:2:1-81:12
+		ADDED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:2:1-82:12
 		INJECTED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:2:11-69
@@ -115,7 +115,7 @@ ADDED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:12:5-81
 	android:name
 		ADDED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:12:22-78
 application
-ADDED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:14:5-79:19
+ADDED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:14:5-80:19
 MERGED from [com.github.okaybroda:FragmentStateManager:1.0.1] C:\Users\안준영\.gradle\caches\transforms-1\files-1.1\FragmentStateManager-1.0.1.aar\429d85071ab446589873356325e96d0e\AndroidManifest.xml:11:5-15:19
 MERGED from [com.github.okaybroda:FragmentStateManager:1.0.1] C:\Users\안준영\.gradle\caches\transforms-1\files-1.1\FragmentStateManager-1.0.1.aar\429d85071ab446589873356325e96d0e\AndroidManifest.xml:11:5-15:19
 MERGED from [com.github.ittianyu:BottomNavigationViewEx:2.0.2] C:\Users\안준영\.gradle\caches\transforms-1\files-1.1\BottomNavigationViewEx-2.0.2.aar\12f773991fabec4bfedc27c670c2a2f3\AndroidManifest.xml:11:5-12:19
@@ -241,7 +241,7 @@ ADDED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:52:17-55:
 	android:pathPattern
 		ADDED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:54:21-50
 activity#com.example.onthejourney.Activity.HomeActivityCustomer
-ADDED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:58:9-76
+ADDED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:58:9-67
 	android:name
 		ADDED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:58:19-64
 activity#com.example.onthejourney.Activity.Photographer_info
@@ -301,9 +301,13 @@ ADDED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:77:9-64
 	android:name
 		ADDED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:77:19-61
 activity#com.example.onthejourney.Activity.SignUpActivity
-ADDED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:78:9-70
+ADDED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:78:9-61
 	android:name
 		ADDED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:78:19-58
+activity#com.example.onthejourney.Activity.ReviewActivity
+ADDED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:79:9-70
+	android:name
+		ADDED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml:79:19-58
 uses-sdk
 INJECTED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Android\CPL-20182-Team8\app\src\main\AndroidManifest.xml

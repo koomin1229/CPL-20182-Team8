@@ -39,27 +39,28 @@ import static java.lang.Thread.sleep;
 
 public class Photographer_info extends AppCompatActivity {
 
+    private Buddy buddy;
     Context context;
     private ImageView imageView;
     private RecyclerView rvSample;
     private boolean like = false;
     private Button request;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_photographer_info);
 
+        buddy = (Buddy) getIntent().getParcelableExtra("Buddy");
+
 
         context = this;
         final Buddy buddy = (Buddy) getIntent().getParcelableExtra("Buddy");
-        final Customer me = (Customer)getIntent().getParcelableExtra("Customer");
-        ArrayList<String> image_path_list = (ArrayList<String>)getIntent().getStringArrayListExtra("List");
+        final Customer me = (Customer) getIntent().getParcelableExtra("Customer");
+        final ArrayList<String> image_path_list = (ArrayList<String>) getIntent().getStringArrayListExtra("List");
 
-        Log.d("BuddyInPhotoInfo",buddy.toString());
-        Log.d("Customer", me.toString());
-        Log.d("image_path_list", image_path_list.toString());
 
-        if(me != null) {
+        if (me != null) {
             LinearLayout linearLayout = findViewById(R.id.ButtonLinear);
             linearLayout.setVisibility(LinearLayout.VISIBLE);
             request = findViewById(R.id.request);
@@ -97,8 +98,7 @@ public class Photographer_info extends AppCompatActivity {
                     dialog.show();
                 }
             });
-        }
-        else{
+        } else {
             LinearLayout linearLayout = findViewById(R.id.ButtonLinear);
             linearLayout.setVisibility(LinearLayout.GONE);
         }
@@ -106,7 +106,7 @@ public class Photographer_info extends AppCompatActivity {
         TextView textView = findViewById(R.id.textView2);
         textView.setText(buddy.getTitle());
         CheckBox likeText = findViewById(R.id.likeInInfo);
-        if(buddy.getLikeFlag() == 1){
+        if (buddy.getLikeFlag() == 1) {
             like = true;
             likeText.setChecked(like);
         }
@@ -114,8 +114,8 @@ public class Photographer_info extends AppCompatActivity {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 if (event.getAction() == MotionEvent.ACTION_DOWN) {
-                    if(like == false) like=true; //true이면 선호작가에 추가
-                    else like=false;
+                    if (like == false) like = true; //true이면 선호작가에 추가
+                    else like = false;
                 }
                 return false;
             }
@@ -127,29 +127,40 @@ public class Photographer_info extends AppCompatActivity {
                     @Override
                     public void doTask(Object resultBody) {
                         ResultBody<Profile> result = (ResultBody<Profile>) resultBody;
-                        Glide.with(context).load("http://ec2-18-222-114-158.us-east-2.compute.amazonaws.com:3000/"+result.getDatas().get(0).getImage_path()).into(imageView);
+                        if (result.getDatas().size() == 0) {
+                            Glide.with(context).load("http://ec2-18-222-114-158.us-east-2.compute.amazonaws.com:3000/" + image_path_list.get(0)).into(imageView);
+                        } else
+                            Glide.with(context).load("http://ec2-18-222-114-158.us-east-2.compute.amazonaws.com:3000/" + result.getDatas().get(0).getImage_path()).into(imageView);
 
                     }
                 }
         ).execute();
 
         this.rvSample = (RecyclerView) findViewById(R.id.rvSample);
-        this.rvSample.setLayoutManager(new GridLayoutManager(this,3));
+        this.rvSample.setLayoutManager(new GridLayoutManager(this, 3));
 
-        RecyclerViewAdapter adapter = new RecyclerViewAdapter(this, image_path_list,me);
+        RecyclerViewAdapter adapter = new RecyclerViewAdapter(this, image_path_list, me);
         this.rvSample.setAdapter(adapter);
     }
 
-    public void noticeClick(View v){
+    public void noticeClick(View v) {
         Intent i = new Intent(Photographer_info.this, Notice.class);
         startActivity(i);
     }
-    public void introduceClick(View v){
+
+    public void introduceClick(View v) {
         Intent i = new Intent(Photographer_info.this, IntroducePrice.class);
         startActivity(i);
     }
-    public void scheduleClick(View v){
+
+    public void scheduleClick(View v) {
         Intent i = new Intent(Photographer_info.this, Schedule.class);
+        startActivity(i);
+    }
+
+    public void reviewClick(View v) {
+        Intent i = new Intent(Photographer_info.this, ReviewActivity.class);
+        i.putExtra("Buddy", buddy);
         startActivity(i);
     }
 }

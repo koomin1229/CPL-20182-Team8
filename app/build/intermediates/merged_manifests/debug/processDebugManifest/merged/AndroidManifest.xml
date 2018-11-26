@@ -34,6 +34,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_new_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
 
         <!--
@@ -93,6 +94,7 @@
         <activity android:name="com.example.onthejourney.Activity.BookingActivity" />
         <activity android:name="com.example.onthejourney.Activity.HomeActivityBuddy" />
         <activity android:name="com.example.onthejourney.Activity.SignUpActivity" />
+        <activity android:name="com.example.onthejourney.Activity.ReviewActivity" />
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"

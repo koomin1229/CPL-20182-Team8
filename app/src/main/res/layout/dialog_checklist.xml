@@ -14,8 +14,8 @@
         android:paddingLeft="24dp"
         android:paddingTop="16dp"
         android:paddingBottom="16dp"
-        android:text="체크 리스트"
-        android:textColor="#000"
+        android:text="체크리스트"
+        android:textColor="#424242"
         android:textSize="20sp" />
 
     <ScrollView
@@ -68,7 +68,7 @@
                     android:id="@+id/people_numberEt"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="인원수"
+                    android:hint="인원 수"
                     android:inputType="textWebEmailAddress"
                     android:textColorHint="#42000000" />
             </android.support.design.widget.TextInputLayout>
@@ -84,7 +84,7 @@
                     android:id="@+id/require_listEt"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="요구 사항( , 로 구분)"
+                    android:hint="요구사항(, 로 구분)"
                     android:inputType="textWebEmailAddress"
                     android:textColorHint="#42000000" />
             </android.support.design.widget.TextInputLayout>
@@ -111,36 +111,26 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="end"
+                android:layout_height="22dp"
+                android:gravity="right"
                 android:orientation="horizontal"
-                android:paddingTop="4dp"
-                android:paddingBottom="4dp"
-                android:weightSum="10">
+                android:layout_marginBottom="10dp">
 
                 <TextView
                     android:id="@+id/findPwDialogCancelTv"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="2"
-                    android:background="?attr/selectableItemBackground"
+                    android:layout_width="45dp"
+                    android:layout_height="22dp"
+                    android:layout_marginRight="5dp"
                     android:clickable="true"
-                    android:gravity="center"
-                    android:text="취소"
-                    android:textColor="@color/colorAccent"
-                    android:textSize="16sp" />
+                    android:background="@drawable/dialog_checklist_customer_cancel"/>
 
                 <TextView
                     android:id="@+id/findPwDialogFindTv"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="3"
-                    android:background="?attr/selectableItemBackground"
+                    android:layout_width="50dp"
+                    android:layout_height="22dp"
+                    android:layout_marginRight="24dp"
                     android:clickable="true"
-                    android:gravity="center"
-                    android:text="작업 제안"
-                    android:textColor="@color/colorAccent"
-                    android:textSize="16sp" />
+                    android:background="@drawable/dialog_checklist_customer_send"/>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
