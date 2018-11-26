@@ -62,9 +62,7 @@ router.get('/buddies_info/:customer_id', function(req, res, next){
                 .then(function (buddy) {
                     if(!buddy.length) return res.status(404).send(ReturnFormat.get_format(0, buddy, "not_found"));
                     res.send(ReturnFormat.get_format(1, buddy, ""));
-                })
-
-            res.send(ReturnFormat.get_format(1, favorite_buddy, ""));
+                });
         })
         .catch(function(err){
             res.status(500).send(ReturnFormat.get_format(0, "", err));
