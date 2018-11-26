@@ -35,20 +35,18 @@ public class SearchFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_search, container, false);
-        return view;
-    }
 
-    @Override
-    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
 
         customer = (Customer)getArguments().get("Customer");
         Log.d("search_fragment", customer.toString());
 
         tv = (EditText) view.findViewById(R.id.editTextInsearch);
 
-        rv = (RecyclerView) getActivity().findViewById(R.id.search_rv);
-        rv.setLayoutManager(new GridLayoutManager(getContext(),3));
+
+
+        this.rv = (RecyclerView) view.findViewById(R.id.search_rv);
+        this.rv.setHasFixedSize(true);
+        this.rv.setLayoutManager(new GridLayoutManager(getContext(),3));
 
         //HashTagFeedItemAdapter adapter = new HashTagFeedItemAdapter(null, null, getContext(), customer);
         //rv.setAdapter(adapter);
@@ -58,7 +56,6 @@ public class SearchFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 String text = tv.getText().toString();
-                final TextView myText = v.findViewById(R.id.textInsearch);
 
                 Log.d("search_fragment", text);
                 new HttpAsyncTask("GET", "feed_items/hashtag/" + text, null, null
@@ -81,6 +78,14 @@ public class SearchFragment extends Fragment {
         });
 
         tv.setHint("search");
+
+        return view;
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
     }
 
     public SearchFragment() {}

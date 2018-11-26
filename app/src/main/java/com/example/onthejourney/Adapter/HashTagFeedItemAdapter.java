@@ -52,14 +52,14 @@ public class HashTagFeedItemAdapter extends RecyclerView.Adapter<ViewHolder1> {
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder1 viewHolder, final int position) {
-        Log.d("inadapter",url+feedItems.get(position).getImage_path());
-        Glide.with(context).load(url+feedItems.get(position).getImage_path()).into(viewHolder.imageView);
-        viewHolder.imageView.setOnClickListener(new View.OnClickListener(){
+    public void onBindViewHolder(@NonNull ViewHolder1 viewHolder1, final int i) {
+        Log.d("inadapter",url+feedItems.get(i).getImage_path());
+        Glide.with(context).load(url+feedItems.get(i).getImage_path()).into(viewHolder1.imageView);
+        viewHolder1.imageView.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 new HttpAsyncTask("POST", "favorite_feeds",
-                        new FavoriteFeed(feedItems.get(position).get_id(), customer.getCustomer_id()).getJsonObject(),
+                        new FavoriteFeed(feedItems.get(i).get_id(), customer.getCustomer_id()).getJsonObject(),
                         null, new TypeToken<FavoriteFeed>(){}.getType()
                         , new MyCallBack() {
                     @Override
@@ -71,11 +71,12 @@ public class HashTagFeedItemAdapter extends RecyclerView.Adapter<ViewHolder1> {
         });
     }
 
+
     @Override
     public int getItemCount() {
         if (image_path_arr == null)
             return 0;
         else
-            return image_path_arr.size();
+            return feedItems.size();
     }
 }

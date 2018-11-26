@@ -98,6 +98,7 @@ public class ChatFragment extends Fragment {
                             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                                 Intent intent = new Intent(getActivity(), ChatActivity.class);
+                                intent.putExtra("notMe",((CheckList)chat_list.getItemAtPosition(position)).getCustomer_id());
                                 intent.putExtra("Buddy", buddy);
                                 Log.d("Buddy", buddy.toString());
                                 intent.putExtra("chatName", ((CheckList)chat_list.getItemAtPosition(position)).getKey());

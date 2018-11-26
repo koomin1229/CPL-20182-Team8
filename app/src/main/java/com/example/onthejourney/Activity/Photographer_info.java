@@ -127,6 +127,7 @@ public class Photographer_info extends AppCompatActivity {
                     @Override
                     public void doTask(Object resultBody) {
                         ResultBody<Profile> result = (ResultBody<Profile>) resultBody;
+
                         if (result.getDatas().size() == 0) {
                             Glide.with(context).load("http://ec2-18-222-114-158.us-east-2.compute.amazonaws.com:3000/" + image_path_list.get(0)).into(imageView);
                         } else

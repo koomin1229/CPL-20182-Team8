@@ -1,7 +1,6 @@
 package com.example.onthejourney.Adapter;
 
 import android.content.Context;
-import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -94,6 +93,7 @@ public class ChatAdapter extends ArrayAdapter<ChatDTO> {
     public int getItemViewType(int position) {
         String email = getItem(position).getUserName();
         if ((buddy == null && email.equals(customer.getCustomer_id())) || customer == null && email.equals(buddy.getBuddy_id())) {
+
             return TYPE_MY_SELF; // 나의 채팅내용
         } else {
             return TYPE_ANOTHER; // 상대방의 채팅내용
@@ -102,19 +102,19 @@ public class ChatAdapter extends ArrayAdapter<ChatDTO> {
 
     private class ViewHolderAnother {
         private ImageView mImgProfile;
+        private View mUserName;
         private TextView mTxtUserName;
         private TextView mTxtMessage;
         private TextView mTxtTime;
 
         private void bindView(View convertView) {
-            mTxtUserName = (TextView) convertView.findViewById(R.id.txt_userName);
+            mUserName = (View) convertView.findViewById(R.id.userName);
             mTxtMessage = (TextView) convertView.findViewById(R.id.txt_message);
             mTxtTime = (TextView) convertView.findViewById(R.id.txt_time);
         }
 
         private void setData(int position) {
             ChatDTO chatData = getItem(position);
-            mTxtUserName.setText(chatData.getUserName());
             mTxtMessage.setText(chatData.getMessage());
             mTxtTime.setText(mSimpleDateFormat.format(chatData.getTime()));
         }

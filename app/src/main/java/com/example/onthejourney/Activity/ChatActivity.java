@@ -9,6 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.example.onthejourney.Adapter.ChatAdapter;
 import com.example.onthejourney.Data.Buddy;
@@ -25,6 +26,8 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class ChatActivity extends AppCompatActivity {
 
+    private TextView chatName;
+    private String NOT_ME;
     private String CHAT_NAME;
     private String USER_NAME;
     private CheckList checkList;
@@ -45,22 +48,28 @@ public class ChatActivity extends AppCompatActivity {
 
 
         // 위젯 ID 참조
+        chatName = findViewById(R.id.chat_UserName);
         chat_view = (ListView) findViewById(R.id.chat_view);
         chat_edit = (EditText) findViewById(R.id.chat_edit);
         chat_send = (Button) findViewById(R.id.chat_sent);
 
 
-
         // 로그인 화면에서 받아온 채팅방 이름, 유저 이름 저장
         Intent intent = getIntent();
+        NOT_ME = intent.getStringExtra("notMe");
         CHAT_NAME = intent.getStringExtra("chatName");
         USER_NAME = intent.getStringExtra("userName");
         buddy = intent.getParcelableExtra("Buddy");
         customer = intent.getParcelableExtra("Customer");
+
+
+
+
+        chatName.setText(NOT_ME);
         // 채팅 방 입장
 
         if(buddy == null)
-        adapter = new ChatAdapter(this, R.layout.listitem_chat, customer);
+            adapter = new ChatAdapter(this, R.layout.listitem_chat, customer);
 
         else
             adapter = new ChatAdapter(this, R.layout.listitem_chat, buddy);

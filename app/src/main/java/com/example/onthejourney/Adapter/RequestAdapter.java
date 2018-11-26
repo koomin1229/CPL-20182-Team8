@@ -66,10 +66,14 @@ public class RequestAdapter extends BaseAdapter {
             holder = (CustomViewHolder)convertView.getTag();
         }
         CheckList checkList = checkLists.get(position);
-        if(buddy == null)
+        if(buddy == null) {
+
             holder.buddyId.setText(checkList.getBuddy_id());
-        else
+        }
+        else {
+
             holder.buddyId.setText(checkList.getCustomer_id());
+        }
         holder.startDate.setText(checkList.getStart_year() + "년 " + checkList.getStart_month() + "월 " + checkList.getStart_day() + "일 ");
         holder.endDate.setText(checkList.getEnd_year() + "년 " + checkList.getEnd_month() + "월 " + checkList.getEnd_day() + "일 ");
         holder.location.setText(checkList.getLocation());

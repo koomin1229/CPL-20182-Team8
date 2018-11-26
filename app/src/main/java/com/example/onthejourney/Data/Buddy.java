@@ -98,6 +98,8 @@ public class Buddy implements ClusterItem, Parcelable {
 
     public void setmPosition(LatLng mPosition) {
         this.active_location = mPosition;
+        this.latitude = active_location.latitude;
+        this.longitude = active_location.longitude;
     }
 
     public String getLocation_name() {

@@ -516,6 +516,10 @@
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\ade92781f0b4a91e29945b842a9aaf96\\res\\drawable-xhdpi-v4\\ic_mr_button_connecting_26_dark.png"
     },
     {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_chat_head.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\chat_head.png"
+    },
+    {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_btn_google_signin_dark_pressed.9.png.flat",
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\google-signin-1.0.0.aar\\c5e19055f6c2b48e6958055f5738a852\\res\\drawable-hdpi-v4\\btn_google_signin_dark_pressed.9.png"
     },
@@ -660,6 +664,10 @@
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\ade92781f0b4a91e29945b842a9aaf96\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_11_dark.png"
     },
     {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_chat_my_head.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\chat_my_head.png"
+    },
+    {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\1a599f58f05614478748087f3ef1026b\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
     },
@@ -686,6 +694,10 @@
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_checklist_title_back.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\checklist_title_back.png"
     },
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connected_29_dark.png.flat",
@@ -2532,6 +2544,10 @@
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\ade92781f0b4a91e29945b842a9aaf96\\res\\drawable-mdpi-v4\\ic_vol_type_speaker_group_light.png"
     },
     {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_chat_my_tail.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\chat_my_tail.png"
+    },
+    {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_btn_google_signin_light_disabled.9.png.flat",
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\google-signin-1.0.0.aar\\c5e19055f6c2b48e6958055f5738a852\\res\\drawable-xxhdpi-v4\\btn_google_signin_light_disabled.9.png"
     },
@@ -2978,6 +2994,10 @@
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\1a599f58f05614478748087f3ef1026b\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_chat_edit.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\chat_edit.png"
     },
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\interpolator-v21_mtrl_fast_out_slow_in.xml.flat",
@@ -3848,6 +3868,10 @@
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\google-signin-1.0.0.aar\\c5e19055f6c2b48e6958055f5738a852\\res\\drawable-hdpi-v4\\btn_google_signin_dark_focus.9.png"
     },
     {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_chat_background.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\chat_background.png"
+    },
+    {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_btn_google_signin_light_pressed.9.png.flat",
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\google-signin-1.0.0.aar\\c5e19055f6c2b48e6958055f5738a852\\res\\drawable-ldpi-v4\\btn_google_signin_light_pressed.9.png"
     },
@@ -4088,12 +4112,20 @@
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\bc7cf69877cb11ccfa2d7dcf96cda31e\\res\\color-v23\\abc_tint_btn_checkable.xml"
     },
     {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_chat_body.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\chat_body.png"
+    },
+    {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_save_story.png.flat",
         "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_save_story.png"
     },
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\bc7cf69877cb11ccfa2d7dcf96cda31e\\res\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_chat_send_message.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\chat_send_message.png"
     },
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connecting_02_dark.png.flat",
@@ -4174,6 +4206,10 @@
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_web.png.flat",
         "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\mipmap-mdpi\\ic_web.png"
+    },
+    {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_chat_my_body.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\chat_my_body.png"
     },
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_username.png.flat",
@@ -4440,6 +4476,10 @@
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\google-signin-1.0.0.aar\\c5e19055f6c2b48e6958055f5738a852\\res\\drawable-tvdpi-v4\\btn_google_signin_dark_normal.9.png"
     },
     {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_chat_tail.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\chat_tail.png"
+    },
+    {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_arrow.png.flat",
         "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\mipmap-hdpi\\ic_arrow.png"
     },
@@ -4586,6 +4626,10 @@
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_layout_snackbar.xml.flat",
         "source": "C:\\Users\\안준영\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\db082924a967ae0074c75320dca0858e\\res\\layout\\mtrl_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_chat_top.png.flat",
+        "source": "C:\\Android\\CPL-20182-Team8\\app\\src\\main\\res\\drawable-xxhdpi\\chat_top.png"
     },
     {
         "merged": "C:\\Android\\CPL-20182-Team8\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_btn_text_btn_ripple_color.xml.flat",

@@ -212,8 +212,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 buddy.setmPosition((LatLng)data.getParcelableExtra("Latlng"));
                 Log.d("str",buddy.getLocation_name());
                 Log.d("Latlng",buddy.getmPosition().toString());
+                Log.d("BuddyInLogin",buddy.toString());
                 new HttpAsyncTask("POST", "buddies",
-                        new Buddy(buddy).getJsonObject(),
+                        buddy.getJsonObject(),
                         null, new TypeToken<ResultBody<Customer>>() {
                 }.getType(),
                         new MyCallBack() {
