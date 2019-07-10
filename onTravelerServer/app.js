@@ -88,6 +88,7 @@ app.use(function(err, req, res, next) {
 });
 
 
+mongoose.set('useCreateIndex', true);
 mongoose.connect(mongo_server_url, {useNewUrlParser: true});
 
 var db = mongoose.connection;

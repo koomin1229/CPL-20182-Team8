@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "pm2 start ./bin/www --name journey"
+    "start": "sudo pm2 start ./bin/www --name journey",
+    "stop" : "sudo pm2 delete journey",
+    "status" : "sudo pm2 list",
+    "log" : "sudo pm2 log"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
