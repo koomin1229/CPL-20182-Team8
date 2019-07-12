@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.ChatFragment">
+
+    <LinearLayout
+        android:background="@drawable/mypage_top"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+        <TextView
+            android:paddingLeft="65dp"
+            android:paddingTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="진행 중인 목록"
+            android:textSize="16sp"
+            android:textColor="#3d3d3d" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_marginTop="55dp"
+        android:id="@+id/chat_listInbook"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</RelativeLayout>
